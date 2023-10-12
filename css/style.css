@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.logo img{
+padding: 10px;
+    width: 200px;
+    height: auto;
+
+}
+
+.logo img:hover{
+    filter: orange;
+}
+
+.menu{
+    background-image: url('../images/resources/medida.png');
+    background-position: center;
+    background-size: cover;
+    height: 40%;
+}
+
+.menu a{
+    color: white;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.menu a:hover{
+    color: orange;
+}
+
+
+
+.nav{
+    padding: 10px;
+}
+
+.navegacion{
+    height: 20%;
+    background-color: rgba(0,0,0,0.3);;
+}
+
+.menu h1{
+    padding-top: 40px;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+
+.invertida{
+    filter: invert(100%);
+}
