@@ -90,15 +90,32 @@ padding: 10px;
 }
 
 .casa-central{
-    display: flex;
+    padding-top: 1rem;
     font-weight: bold;
+    justify-content: center;
+}
+
+.casa-central p{
+    justify-content: center;
+    padding-left: 1rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+.footer{
+    padding: 0;
+    background-color: black;
 }
 
 footer{
+    padding:0;
+    height: auto;
+    width: auto;
     background-color: black;
 }
 
 footer p{
+    align-items: center;
     color: white;
     font-size: 1rem;
     
@@ -109,11 +126,30 @@ footer img{
     height: 30px;
 }
 
-.redes-sociales{
-    display: flex;
-    
+footer a{
+    text-decoration: none;
+    color: white;
 }
 
+footer a:hover{
+    color: orange;
+}
+
+.redes-sociales{
+    align-items: center;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.copy{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+}
 
 
 main{
@@ -121,6 +157,18 @@ main{
     padding-bottom: 5rem;
 }
 
-@media {
+@media(max-width:768px){
+    .redes-sociales{
+        padding-bottom: 1rem;
+    }
 
+    .banner-inicio img{
+        height: 500px;
+    }
+}
+
+@media(max-width:350px){
+    .banner-inicio img{
+        height: 300px;
+    }
 }
